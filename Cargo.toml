@@ -3,9 +3,9 @@ name = "bevy_fps"
 version = "0.1.0"
 edition = "2021"
 description = "A fist person shooter plugin for bevy"
-license = "MIT OR Apache-2.0"
-homepage = "https://github.com/Strange-Knoll/bevy_fps_controller"
-repository = "https://github.com/Strange-Knoll/bevy_fps_controller"
+license = "MIT"
+homepage = "https://github.com/ka-de/bevy_fps"
+repository = "https://github.com/ka-de/bevy_fps"
 keywords = ["gamedev", "bevy", "rapier"]
 categories = ["game-development"]
 
@@ -13,4 +13,4 @@ categories = ["game-development"]
 
 [dependencies]
 bevy = "0.13.2"
-bevy_rapier3d = { version = "0.26.0", features = ["simd-stable"] }
+bevy_rapier3d = { version = "0.26.0", features = ["simd-stable", "parallel"] }
